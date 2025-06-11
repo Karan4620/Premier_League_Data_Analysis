@@ -1,0 +1,126 @@
+Column Name,Suggested Column Name,Soccer-Specific Description
+Player,Player,Name of the player
+Summary__#,Shirt_Number,Jersey number worn by the player
+Summary__Nation,Player_Nation,Country the player represents
+Summary__Pos,Player_Position,"Primary playing position of the player (e.g., GK, DF, MF, FW)"
+Summary__Age,Player_Age,Player's age
+Summary__Min,Minutes_Played,Minutes Played
+Summary__Gls,Goals,Number of goals scored by the player
+Summary__Ast,Assists,Number of assists provided by the player
+Summary__PK,Penalty_Kick_Scored,Penalty Kicks Scored
+Summary__PKatt,Penalty_Kick_Attempted,Total Number of Penalty Kicks Attempted
+Summary__Sh,Shots,Total number of shots taken
+Summary__SoT,Shots_On_Targer,Total number of shots on Target
+Summary__CrdY,Yellow_Cards,Number of yellow cards received
+Summary__CrdR,Red_Cards,Number of red cards received
+Summary__Touches,Touches,"Number of times a player touched the ball. note: receiving a pass, then dribbling, then sending a pass counts as one touch"
+Summary__Tkl,Tackles,Dribblers tackled
+Summary__Int,Interceptions,Times the player intercepted the ball
+Summary__Blocks,Blocks,Number of times blocking the ball by standing in its path
+Summary__xG,xG,Expected Goals
+Summary__npxG,npxG,Non-Penalty Expected Goals
+Summary__xAG,xAG,Expected Assisted Goals
+Summary__SCA,SCA,Shot Creating Actions
+Summary__GCA,GCA,Goal Creating Actions
+Summary__Cmp,Passes_Completed,Total completed passes by the player
+Summary__Att,Passes_Attempted,Total passes attempted
+Summary__Cmp%,Pass_Completion_Percentage,Pass Completion Percentage
+Summary__PrgP,Progresive_Passes,Total Number of Progrerssive Passes
+Summary__Carries,Carries,Number of times the player controlled the ball with their feet
+Summary__PrgC,Progresive_Carries,Total number of progressive carries
+Summary__Att.1,Dribbles_Attempted,Take-ons attempte
+Summary__Succ,Dribbles_Succesful,Successful take-ons
+Passing__Cmp,Passes_Completed,Total completed passes by the player
+Passing__Att,Passes_Attempted,Total passes attempted
+Passing__Cmp%,Pass_Completion_Percentage,Pass Completion Percentage
+Passing__TotDist,Total_Passing_Distance,Total passing distance in any direction
+Passing__PrgDist,Progressive_Passing_Distacne,"Total progresive passing distance , towards opponents goal"
+Passing__Cmp.1,Short_Passes_Completed,Short passes completed
+Passing__Att.1,Short_Passes_Attempted,Short passes attempted
+Passing__Cmp%.1,Short_Pass_Completion_Percentage,Short pass completion percentage
+Passing__Cmp.2,Medium_Passes_Completed,Medium passes completed
+Passing__Att.2,Medium_Passes_Attempted,Medium passes attempted
+Passing__Cmp%.2,Medium_Pass_Completion_Percentage,Medium pass completion percentage
+Passing__Cmp.3,Long_Passes_Completed,Long passes completed
+Passing__Att.3,Long_Passes_Attempted,Long passes attempted
+Passing__Cmp%.3,Long_Pass_Completion_Percentage,Long pass completion percentage
+Passing__Ast,Assists,Number of assists provided by the player
+Passing__xAG,xAG,Expected Assisted Goals
+Passing__xA,xA,Excepected Assists
+Passing__KP,KP,Key passes
+Passing__1/3,Final_Third,Passes into the final third
+Passing__PPA,PPA,Passes into the penalty area
+Passing__CrsPA,CrsPA,Crosses into the penalty area
+Passing__PrgP,PrgP,Progressive Passes
+Passing_types__Att,Passes_Attempted,Take-ons attempted number of attempts to take on defenders while dribbling
+Passing_types__Live,Live,Live ball passes
+Passing_types__Dead,Dead,Dead ball passes
+Passing_types__FK,FK,Free kick passes
+Passing_types__TB,TB,Through passes
+Passing_types__Sw,Sw,Switches
+Passing_types__Crs,Crosses,Crosses
+Passing_types__TI,TI,Thrown Ins
+Passing_types__CK,CK,Corner Kicks
+Passing_types__In,Crs_In,Inswinging corner kicks
+Passing_types__Out,Crs_Out,Outswinging corner kicks
+Passing_types__Str,Crs_Str,Straight corner kicks
+Passing_types__Cmp,Passes_Completed,Total completed passes by the player
+Passing_types__Off,Passes_Off,Passes offside
+Passing_types__Blocks,Passes_Blocked,Passes Blocked
+Defense__Tkl,Tkl,Number of players Tackled
+Defense__TklW,TklW,Tackles Won
+Defense__Def 3rd,Def_3rd,Tackles in defesive 3rd
+Defense__Mid 3rd,Mid_3rd,Tacled in middle 3rd
+Defense__Att 3rd,Att_3rd,Tackles in attacking 3rd
+Defense__Tkl.1,Drib_Tkl,Number of dribblers tackled
+Defense__Att,Drib_Chl,Number of unsuccessful challenges plus number of dribblers tackled
+Defense__Tkl%,Tkl%,Dribblers tackled divided by number of attempts to challenge an opposing dribbler
+Defense__Lost,Lost,Number of unsucessful attempts to challenge a dribbling player
+Defense__Blocks,Blocks,Number of times blocking the ball by standing in its path
+Defense__Sh,Sh_Blocks,Shots Blocked
+Defense__Pass,Pass_Blocked,Passes Blocked
+Defense__Int,Int ,Times the player intercepted the ball
+Defense__Tkl+Int,Tkl_Int,Tackles + Interception
+Defense__Clr,Clr,Clearances
+Defense__Err,Err,Errors mistakes leading to an opponent's shot
+Possession__Touches,Touches,"Number of times a player touched the ball. note: receiving a pass, then dribbling, then sending a pass counts as one touch"
+Possession__Def Pen,Def_Pen_Touches,Touches (def pen) touches in defensive penalty area
+Possession__Def 3rd,Def_3rd_Touches,Touches (def 3rd) touches in defensive 1/3
+Possession__Mid 3rd,Mid_3rd_Touches,Touches (mid 3rd) touches in middle 1/3
+Possession__Att 3rd,Att_3rd_Touches,Touches (att 3rd) touches in attacking 1/3
+Possession__Att Pen,Att_Pen_Touches,Touches (att pen) touches in attacking penalty area
+Possession__Live,Live_touches,"Touches (live-ball) live-ball touches. does not include corner kicks, free kicks, throw-ins, kick-offs, goal kicks or penalty kicks"
+Possession__Att,Takeons,Number of attempts to take on defenders while dribbling
+Possession__Succ,Succ_Takeons,"Number of defenders taken on successfully, by dribbling past them"
+Possession__Succ%,Succ_Takeons_%,Percentage of Take-Ons Completed Successfully
+Possession__Tkld,Takeons_Tkl,Number of times tackled by a defender during a take-on attempt
+Possession__Tkld%,Takenone_Tkl_%,Percentage of time tackled by a defender during a take-on attempt
+Possession__Carries,Carries,Number of times the player controlled the ball with their feet
+Possession__TotDist,TotDist,"Total carrying distance total distance, in yards, a player moved the ball while controlling it with their feet, in any direction"
+Possession__PrgDist,PrgDist,"Progressive carrying distance progressive distance total distance, in yards, a player moved the ball while controlling it with their feet towards the opponent's goal"
+Possession__PrgC,PrgC,"Carries that move the ball towards the opponent's goal line at least 10 yards from its furthest point in the last six passes, or any carry into the penalty area. Excludes carries which end in the defending 50% of the pitch"
+Possession__1/3,Final_Third_Carries,Carries into final third carries that enter the 1/3 of the pitch closest to the goal
+Possession__CPA,Penalty_Carries,Carries into penalty area carries into the 18-yard box
+Possession__Mis,MisControls,Miscontrols number of times a player failed when attempting to gain control of a ball
+Possession__Dis,Disp,Dispossessed number of times a player loses control of the ball after being tackled by an opposing player. does not include attempted take-ons
+Possession__Rec,Pass_Rec,Number of times a player successfully received a pass
+Possession__PrgR,Pass_Rec_Prg,Progressive Passes Received
+Misc__CrdY,Yellow_Cards,Number of yellow cards received
+Misc__CrdR,Red_Cards,Number of red cards received
+Misc__2CrdY,2CrdY,Second yellow card
+Misc__Fls,Fls,Fouls made by the player
+Misc__Fld,Fld,Fouls Drawn
+Misc__Off,Off,Offsides
+Misc__Crs,Crosses,Balls delivered into the penalty area from wide areas
+Misc__Int,Int,Times the player intercepted the ball
+Misc__TklW,TklW,Tackles Won
+Misc__PKwon,PKWin,Penalty kicks won
+Misc__PKcon,PkCon,Penalty kicks conceded
+Misc__OG,OG,Own goals
+Misc__Recov,Recov,Ball recoveries number of loose balls recovered
+Misc__Won,Awon,Aerials won
+Misc__Lost,Alost,Aerials lost
+Misc__Won%,Awon_%,Player's age on match day
+Team,Team,Player team
+Opponent,Opponenet,Opponenet team
+Home/Away,Home/Away,Was the player playing at home or away
