@@ -7,18 +7,6 @@ This project scrapes and analyzes English Premier League (EPL) match data from [
 
 ---
 
-## 📁 Project Structure
-
-├── PL_Match_Data_Extraction.ipynb # Web scraping logic
-├── PL_Data_Analysis.ipynb # Data cleaning & exploratory analysis
-├── premier_league_match_info.csv # Scraped match metadata
-├── team_div_summary_map.csv # Mapped team div IDs for scraping stats
-├── pl_merged_stats.csv # Final cleaned player stats (input to analysis)
-├── final_soccer_column_dictionary.csv # Column definitions and rename map
-
-
----
-
 ## 🕸️ 1. Match Data Scraping (FBref.com)
 
 The `PL_Match_Data_Extraction.ipynb` notebook performs the following:
